@@ -1,0 +1,11 @@
+<div *ngIf="!hideForMobile" class="header">
+  <i class="fa fa-bars" aria-hidden="true"></i>
+  <div class="heading-wrapper">
+    <p class="main-heading">Santa Inc.</p>
+    <p class="version">V4.1.2</p>
+  </div>
+</div>
+<div class="dashboard">
+  <div class="sidebar-wrapper" *ngIf="hideForMobile"><app-sidemenu style="width: 300px;"></app-sidemenu></div>
+  <div style="width: 100%;"><app-main-display></app-main-display></div>
+</div>

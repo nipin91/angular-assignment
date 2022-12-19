@@ -1,0 +1,52 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+    .app-sidemenu {
+        min-height: 100vh;
+    }
+
+    .app-main-display {
+        height: 100vh;
+    }
+
+}
+
+.header {
+    height: 55px;
+    width: 100%;
+    background-color: #04582b;
+    position: relative;
+}
+
+.fa-bars {
+    font-size: 40px;
+    margin: 7px;
+    color: white;
+}
+
+.heading-wrapper {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.main-heading {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: cursive;
+    color: #ab0d0f;
+    text-shadow: 0px 4px 6px #000000;
+}
+
+.version {
+    position: absolute;
+    top: 28px;
+    color: #666666;
+}
